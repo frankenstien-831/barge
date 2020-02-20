@@ -22,7 +22,7 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1-a
   GKE_CLUSTER: your-first-cluster-1
-  IMAGE: gke-test
+  IMAGE: docker push frankensteinhub/frankenstein-barge:tagname
   REGISTRY_HOSTNAME: gcr.io
   DEPLOYMENT_NAME: gke-test
 
