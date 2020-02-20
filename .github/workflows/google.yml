@@ -22,9 +22,9 @@ env:
   GITHUB_SHA: ${{ github.sha }}
   GKE_ZONE: us-central1-a
   GKE_CLUSTER: your-first-cluster-1
-  IMAGE: gke-build
+  IMAGE: gke-test
   REGISTRY_HOSTNAME: gcr.io
-  DEPLOYMENT_NAME: gke-build
+  DEPLOYMENT_NAME: gke-test
 
 jobs:
   setup-build-publish-deploy:
